@@ -1,0 +1,44 @@
+/* src/components/Game/Game.css */
+.game {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .tile {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+  
+  .tile.active {
+    background-color: #6c63ff;
+  }
+  
+  .tile.selected {
+    background-color: #ffa500;
+  }
+  
+  .finish-button,
+  .next-level-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .finish-button:hover,
+  .next-level-button:hover {
+    background-color: #5a54e5;
+  }
+  

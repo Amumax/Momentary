@@ -1,0 +1,21 @@
+/* src/components/Settings/Settings.css */
+.settings {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .settings-option {
+    margin: 20px 0;
+  }
+  
+  .settings-option label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .settings-option select,
+  .settings-option input[type='checkbox'] {
+    padding: 5px;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,37 @@
+/* src/components/Shop/Shop.css */
+.shop {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .shop-item {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+  }
+  
+  .shop-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .buy-button {
+    padding: 5px 10px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .buy-button:hover {
+    background-color: #5a54e5;
+  }
+  
